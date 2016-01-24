@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYTSwiftHelper"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Helper class or extensions for Swift"
 
   s.homepage         = "https://github.com/hayatan/HYTSwiftHelper"
@@ -20,13 +20,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-
-  s.subspec 'Array' do |a|
-    a.source_files = 'Pod/Classes/Array/**/*'
-  end
-
-  s.subspec 'Dictionary' do |a|
-    a.source_files = 'Pod/Classes/Dictionary/**/*'
-  end
 
 end
