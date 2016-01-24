@@ -22,7 +22,7 @@ pod "HYTSwiftHelper"
 
 ## Author
 
-hayatan, hayatan0311@gmail.com
+hayatan
 
 ## License
 

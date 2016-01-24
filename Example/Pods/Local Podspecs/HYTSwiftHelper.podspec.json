@@ -1,0 +1,28 @@
+{
+  "name": "HYTSwiftHelper",
+  "version": "0.1.0",
+  "summary": "Helper class or methods for Swift",
+  "description": "Helper class or methods for Swift",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HYTSwiftHelper",
+  "license": "MIT",
+  "authors": "hayatan",
+  "source": {
+    "git": "https://github.com/hayatan/HYTSwiftHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Array",
+      "source_files": "Pod/Classes/Array/**/*"
+    },
+    {
+      "name": "Dictionary",
+      "source_files": "Pod/Classes/Dictionary/**/*"
+    }
+  ]
+}

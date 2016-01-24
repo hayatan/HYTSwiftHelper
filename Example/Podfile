@@ -4,6 +4,4 @@ use_frameworks!
 
 target 'HYTSwiftHelper_Tests', :exclusive => true do
   pod "HYTSwiftHelper", :path => "../"
-
-  
 end
