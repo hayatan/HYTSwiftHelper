@@ -9,17 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = "HYTSwiftHelper"
   s.version          = "0.1.0"
-  s.summary          = "Helper class or methods for Swift"
+  s.summary          = "Helper class or extensions for Swift"
 
-  s.description      = <<-DESC
-Helper class or methods for Swift
-                        DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HYTSwiftHelper"
+  s.homepage         = "https://github.com/hayatan/HYTSwiftHelper"
   s.license          = 'MIT'
   s.author           = "hayatan"
   s.source           = { :git => "https://github.com/hayatan/HYTSwiftHelper.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
