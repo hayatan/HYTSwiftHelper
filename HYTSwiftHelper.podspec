@@ -9,32 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = "HYTSwiftHelper"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HYTSwiftHelper."
+  s.summary          = "Helper class or extensions for Swift"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HYTSwiftHelper"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/hayatan/HYTSwiftHelper"
   s.license          = 'MIT'
-  s.author           = { "hayatan" => "hayatan0311@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HYTSwiftHelper.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = "hayatan"
+  s.source           = { :git => "https://github.com/hayatan/HYTSwiftHelper.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'HYTSwiftHelper' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Array' do |a|
+    a.source_files = 'Pod/Classes/Array/**/*'
+  end
+
+  s.subspec 'Dictionary' do |a|
+    a.source_files = 'Pod/Classes/Dictionary/**/*'
+  end
+
 end

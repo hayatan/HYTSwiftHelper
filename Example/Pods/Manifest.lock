@@ -1,0 +1,18 @@
+PODS:
+  - HYTSwiftHelper (0.1.0):
+    - HYTSwiftHelper/Array (= 0.1.0)
+    - HYTSwiftHelper/Dictionary (= 0.1.0)
+  - HYTSwiftHelper/Array (0.1.0)
+  - HYTSwiftHelper/Dictionary (0.1.0)
+
+DEPENDENCIES:
+  - HYTSwiftHelper (from `../`)
+
+EXTERNAL SOURCES:
+  HYTSwiftHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYTSwiftHelper: 953f38f64835a694088d375b61ed8bec357b1cbc
+
+COCOAPODS: 0.39.0

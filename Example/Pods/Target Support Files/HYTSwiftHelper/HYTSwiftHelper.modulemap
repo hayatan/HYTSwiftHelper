@@ -1,0 +1,6 @@
+framework module HYTSwiftHelper {
+  umbrella header "HYTSwiftHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

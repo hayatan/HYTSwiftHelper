@@ -1,0 +1,6 @@
+framework module Pods_HYTSwiftHelper_Tests {
+  umbrella header "Pods-HYTSwiftHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
